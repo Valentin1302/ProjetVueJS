@@ -21,4 +21,19 @@ const isNumberFilter = computed(() => route.path === "/number-filter");
     <!-- Ceci affichera le composant de la route active -->
     <router-view></router-view>
   </div>
+
+
+    <div class="app-container">
+    <router-link to="/user-form">
+      <button>Accéder au formulaire de connexion</button>
+    </router-link>
+  </div>
+    <div class="app-container">
+    <router-link to="/user-list">
+      <button>Accéder à la liste des utilisateurs</button>
+    </router-link>
+  </div>
+
 </template>
+
+

@@ -2,6 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router';
 import TodoList from '@/components/TodoList.vue';
 import NumberFilter from '@/components/NumberFilter.vue';
 import StatsView from '@/components/StatsView.vue';
+import UserForm from '@/components/UserForm.vue';
+import UserList from '@/components/UserList.vue';
 
 const routes = [
   {
@@ -18,6 +20,16 @@ const routes = [
     path: '/stats',
     name: 'Stats',
     component: StatsView,
+  },
+  {
+    path: '/user-form',  
+    name: 'UserForm',
+    component: UserForm, 
+  },
+  {
+    path: '/user-list', 
+    name: 'UserList',
+    component: UserList,
   }
 ];
 
