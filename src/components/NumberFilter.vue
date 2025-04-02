@@ -8,8 +8,7 @@
     const getColor = (number: number): string => {
       return number %  2 === 0 ? 'green' : 'red';
     }
-    const goBack = () => {
-      // Revenir à la page précédente dans l'historique de navigation
+    const goBack = () => { 
       router.go(-1);
     };
 

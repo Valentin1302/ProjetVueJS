@@ -19,7 +19,7 @@ const routes = [
   {
     path: '/stats',
     name: 'Stats',
-    component: StatsView,
+    component: StatsView, 
   },
   {
     path: '/user-form',  

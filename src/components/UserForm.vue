@@ -28,57 +28,5 @@ const addUser = () => {
   </div>
   <router-link to="/">
         <button>Retour à la To-Do List</button>
-      </router-link>
+   </router-link>
 </template>
-
-<style scoped>
-.user-form {
-  max-width: 500px;
-  margin: 20px auto;
-  padding: 20px;
-  background-color: #f8f8f8;
-  border-radius: 8px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.user-form h2 {
-  font-size: 24px;
-  margin-bottom: 20px;
-  text-align: center;
-  color: #333;
-}
-
-.user-form form {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.user-form input {
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  font-size: 16px;
-  transition: border-color 0.3s;
-}
-
-.user-form input:focus {
-  border-color: #4CAF50;
-  outline: none;
-}
-
-button {
-  padding: 10px;
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-  transition: background-color 0.3s;
-}
-
-button:hover {
-  background-color: #45a049;
-}
-</style>

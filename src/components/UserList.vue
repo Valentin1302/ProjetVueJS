@@ -18,18 +18,4 @@ const userStore = useUserStore();
       </router-link>
 </template>
 
-<style scoped>
-.list-container {
-  margin-top: 20px;
-}
-ul {
-  list-style: none;
-  padding: 0;
-}
-li {
-  background: #f4f4f4;
-  margin: 5px 0;
-  padding: 10px;
-  border-radius: 5px;
-}
-</style>
+
